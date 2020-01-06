@@ -1,0 +1,43 @@
+img {
+    border-radius: 50% ;
+    border: 2px solid black;
+}
+
+.about {
+    background-image: url(./images/playstationConsole.jpg);
+    text-align: center;
+    height: 100%;
+    width: cover;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.hola {
+    background-color: rgba(12, 12, 12, 0.7);
+    padding: 5px;
+    border-radius: 10%;
+    margin: 20px;
+    border: 2px dashed rgb(56, 56, 56);
+    color: white;
+}
+
+.iAbout {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(12, 12, 12, 0.7);
+    color: white;
+    border-radius: 5%;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.headingThree {
+    text-align: center;
+    color: aqua;
+    font-weight: bold;
+}
