@@ -1,0 +1,29 @@
+.contact {
+    background-image: url(./images/music=life.jpg);
+    height: 100vh; 
+    width: cover;
+    padding: 10px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.contact-header{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.contact-list{
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(129, 122, 122, 0.5);
+    border-radius: 15px;
+    display: flex;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
