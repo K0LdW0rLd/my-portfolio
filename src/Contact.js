@@ -13,8 +13,8 @@ class Contact extends Component {
                     <ul>
                             <li>Phone: 757-339-7428</li>
                             <li>Email: 90kcol@gmail.com</li>
-                            <li>GitHub: https://github.com/K0LdW0rLd</li>
-                            <li>Linkedin: https://www.linkedin.com/in/90kcol/</li>
+                            <li>GitHub: <a href = 'https://github.com/K0LdW0rLd' target = '_blank'>https://github.com/K0LdW0rLd</a></li>
+                            <li>Linkedin: <a href = 'https://www.linkedin.com/in/90kcol/' target = '_blank'>https://www.linkedin.com/in/90kcol/</a></li>
                     </ul>
                 </div>
             </div>

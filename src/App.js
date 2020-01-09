@@ -17,11 +17,8 @@ class App extends Component {
           <a class="navbar-brand">
               <img src = {logo} width= '80' height='50' alt = 'Studio Ghibli Logo' />
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div className="navbar-collapse" id="navbarTogglerDemo02">
+              <ul className="navbar-nav mr-auto">
                 <li className="navbar-item active">
                   <Link to='/' className= 'navbar-brand'>Home</Link>
                 </li>

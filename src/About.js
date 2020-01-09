@@ -10,7 +10,7 @@ class About extends Component {
                 <div className='greeting'>
                     <h1 className='hola'>Hi! I am Kelly</h1>
                 </div>
-                <img src= {me} width= '285' height='200' alt = 'headshot' />
+                <img className='myPicture' src= {me} width= '285' height='200' alt = 'headshot' />
                 <div className='iAbout'>
                     <h3 className='headingThree'>Me</h3>
                     <p>Since the first alert of Hello World, I knew I wanted to jump into the world of development and programming.  Having a background in Intelligence Analysis, I look at all angles when it comes to solving problems.  I enjoy working with others in a collaborative environment with an emphasis on team development.</p>

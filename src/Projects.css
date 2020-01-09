@@ -1,0 +1,17 @@
+.projects {
+    background-image: url(./images/basketball.jpeg);
+    background-position: center center;
+    height: 140vh; 
+    width: cover;
+    padding: 10px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.projects-section {
+    background-color: rgba(129, 122, 122, 0.6);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
