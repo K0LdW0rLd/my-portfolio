@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
 .greetings {
-    color: black;
+    color: green;
     display: flex;
     justify-content: center;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .box {
     text-align: center;
-    background-image: url(./images/multiColor.jpg);
+    background-image: url(./images/basketball.jpeg);
     height: 100vh; 
     width: cover;
     padding: 10px;
@@ -14,19 +17,17 @@
 }
 
 .hello {
-    background-color: rgb(196, 181, 181, .7);
+    /* background-color: black; */
     padding: 5px;
-    border-radius: 10%;
     margin: 20px;
-    border: 5px dotted black;
     font-size: 70px;
     font-weight: bold;
 }
 
 .welcome{
-    background-color: rgb(196, 181, 181, .8);
+    /* background-color: rgb(196, 181, 181, .8); */
     border-radius: 10%;
     color: black;
     font-size: 20px;
-    border: 5px dotted black;
+    /* border: 5px dotted black; */
 }

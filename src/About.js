@@ -15,7 +15,8 @@ class About extends Component {
                     <h3 className='headingThree'>Me</h3>
                     <p>Since the first alert of Hello World, I knew I wanted to jump into the world of development and programming.  Having a background in Intelligence Analysis, I look at all angles when it comes to solving problems.  I enjoy working with others in a collaborative environment with an emphasis on team development.</p>
                     <h3 className='headingThree'>Interests</h3>
-                    <p>I love to learn new things about technology. My hobbies include playing videogames, listening to music, playing sports, or reading a good detective novel or anything tech related.</p>                </div>
+                    <p>I love to learn new things about technology. My hobbies include playing videogames, listening to music, playing sports, or reading a good detective novel or anything tech related.</p>                
+                </div>
             </div>
         )
     }

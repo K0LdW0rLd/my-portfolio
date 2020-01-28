@@ -7,7 +7,7 @@ class Home extends Component {
             <div className = 'box'>
                 <div className ='greetings'>
                     <div className='hello'>
-                        <p>Hello World</p>
+                        <p>Hello World!</p>
                     </div>
                 </div>
                 <div className='welcome'>

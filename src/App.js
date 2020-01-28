@@ -5,7 +5,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact'
-import logo from './images/logo.png';
+import logo from './images/lotus-flower.png';
 
 
 class App extends Component {

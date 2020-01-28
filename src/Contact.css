@@ -38,4 +38,6 @@ a {
 
 a:hover {
     color: black;
+    background-color: white;
+    font-size: larger;
 }
