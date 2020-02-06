@@ -17,12 +17,11 @@
 }
 
 .hola {
-    background-color: rgba(12, 12, 12, 0.7);
+    font-family: 'Share Tech Mono', monospace;
     padding: 5px;
-    border-radius: 10%;
+    font-weight: strong;
     margin: 20px;
-    border: 2px dashed rgb(56, 56, 56);
-    color: white;
+    color: purple;
 }
 
 .iAbout {
@@ -38,6 +37,6 @@
 
 .headingThree {
     text-align: center;
-    color: aqua;
+    color: rgb(200, 75, 65);
     font-weight: bold;
 }

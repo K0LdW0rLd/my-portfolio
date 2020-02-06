@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
@@ -13,27 +15,20 @@ class App extends Component {
     return(
       <Router>
         <div className = 'container'>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light" >
-          <a class="navbar-brand">
-              <img src = {logo} width= '80' height='50' alt = 'Studio Ghibli Logo' />
-          </a>
-            <div className="navbar-collapse" id="navbarTogglerDemo02">
-              <ul className="navbar-nav mr-auto">
-                <li className="navbar-item active">
-                  <Link to='/' className= 'navbar-brand'>Home</Link>
-                </li>
-                <li className="navbar-item">
-                  <Link to="/about" className="nav-link">About</Link>
-                </li>
-                <li className="navbar-item">
-                  <Link to="/projects" className="nav-link">Projects</Link>
-                </li>
-                <li className="navbar-item">
-                  <Link to="/contact" className="nav-link">Contact</Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar.Brand href="/"><img src={logo} width= '80' height='80' alt='logo' /></Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="mr-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href='/projects'>Projects</Nav.Link>
+              </Nav>
+              <Nav>
+                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         <Route path = '/' exact component = {Home} />
         <Route path = '/about' component = {About} />
         <Route path = '/projects' component = {Projects}/> 
