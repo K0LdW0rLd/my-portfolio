@@ -8,6 +8,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact'
 import logo from './images/lotus-flower.png';
+import './App.css'
 
 
 class App extends Component {
@@ -16,16 +17,16 @@ class App extends Component {
       <Router>
         <div className = 'container'>
           <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-            <Navbar.Brand href="/"><img src={logo} width= '80' height='80' alt='logo' /></Navbar.Brand>
+            <Navbar.Brand href="/"><img src={logo} alt="lotus flower" width= '80' height='80' alt='logo' /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href='/projects'>Projects</Nav.Link>
+                <Link className="app-link" to="/">Home</Link>
+                <Link className="app-link" to='/projects'>Projects</Link>
               </Nav>
               <Nav>
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
+                <Link className="app-link" to="/about">About</Link>
+                <Link className="app-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
