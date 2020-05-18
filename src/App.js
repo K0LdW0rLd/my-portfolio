@@ -15,7 +15,7 @@ class App extends Component {
   render(){
     return(
       <Router>
-        <div className = 'container'>
+        <div>
           <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
             <Navbar.Brand href="/"><img src={logo} alt="lotus flower" width= '80' height='80' alt='logo' /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
